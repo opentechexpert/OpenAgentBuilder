@@ -1,10 +1,12 @@
 # Git Configuration for Dev Containers
 
-This repository provides multiple approaches to automatically configure Git in dev containers with your GitHub user information.
+Configure Git in dev containers with your GitHub user information.
 
 ## 🚀 Quick Start
 
-The dev container is already configured to automatically set up Git when created. Simply rebuild your container:
+The dev container is already configured to automatically set up Git when created.
+Change your Git user name, email, and login by modifying the `devcontainer.json` file or using environment variables.
+Simply rebuild your container:
 
 ```bash
 # In VS Code Command Palette (Ctrl/Cmd + Shift + P)
@@ -13,41 +15,9 @@ The dev container is already configured to automatically set up Git when created
 
 ## 📋 Approach
 
-### Environment Variables
-
-**File**: `.devcontainer/setup-git-env.sh`
-
-Configure Git using environment variables in your `devcontainer.json`.
-
-**Usage:**
-```jsonc
-{
-  "name": "Your Dev Container",
-  "image": "your-image",
-  "containerEnv": {
-    "GIT_USER_NAME": "Your Name",
-    "GIT_USER_EMAIL": "your.email@example.com",
-    "GIT_USER_LOGIN": "your-github-username"
-  },
-  "postCreateCommand": ".devcontainer/setup-git-env.sh"
-}
-```
-
 ## 🎯 DevContainer.json Configuration
 
-### Current Configuration
-
-```jsonc
-{
-  "name": "Default Linux Universal",
-  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
-  "postCreateCommand": ".devcontainer/setup-git.sh"
-}
-```
-
-### Alternative Configurations
-
-#### With Environment Variables
+### With Environment Variables
 ```jsonc
 {
   "name": "Dev Container with Git Env",

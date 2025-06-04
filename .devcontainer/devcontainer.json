@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/universal
 {
-	"name": "Default Linux Universal",
+	"name": "OpenAgentBuilder",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
 
@@ -11,14 +11,15 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": ".devcontainer/setup-git-env.sh",
-
+	// Configure environment variables
 	"containerEnv": {
 		"GIT_USER_NAME": "Jean Nascimento",
 		"GIT_USER_EMAIL": "37225447+opentechexpert@users.noreply.github.com",
 		"GIT_USER_LOGIN": "opentechexpert"
-	}
+	},
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": ".devcontainer/setup-git-env.sh",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
