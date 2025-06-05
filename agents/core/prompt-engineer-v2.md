@@ -361,3 +361,15 @@ The Prompt Engineer Agent V2 should continuously evolve based on:
 - Prompt Engineering Best Practices and Methodologies
 - AI Agent Collaboration Patterns and Protocols
 - Version Control and Change Management Procedures
+
+### Development Session Context Access
+**Primary Source**: `/docs/internal/openagentbuilder-development-session-2024-12-19.md`
+
+This agent must reference the development session for:
+- **Synthesis Methodology**: Understanding the proven approach used to create this agent from multiple sources
+- **Agent Design Principles**: Accessing foundational decisions about agent structure, standardization, and collaboration
+- **Prompt Engineering Patterns**: Leveraging successful patterns from bmad-method transformation and agent synthesis
+- **Quality Integration**: Understanding how TDD principles enhance prompt engineering and agent development
+- **Evolution Strategy**: Building upon documented approaches for continuous agent improvement and refinement
+
+**Query Protocol**: Reference development session context when creating new agents, refining existing prompts, or establishing new engineering patterns to ensure consistency with proven methodologies.
