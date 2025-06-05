@@ -397,7 +397,10 @@ Environment, dependencies, operational parameters
 4. `/workspaces/OpenAgentBuilder/ROADMAP.md`
 5. `/workspaces/OpenAgentBuilder/README.md`
 6. Complete repository structure with placeholder agents
-7. This knowledge base document
+7. **NEW**: Organized VS Code SDK structure (`sdk-vscode/agents/` with core/development/management categories)
+8. **NEW**: Enhanced SDK automation scripts (`sync-agents.sh`, `validate-sdk.sh`)
+9. **NEW**: Updated VS Code integration documentation and configuration
+10. This knowledge base document
 
 ### Templates and Standards
 1. `/workspaces/OpenAgentBuilder/templates/agent-template.md`
@@ -416,3 +419,125 @@ Environment, dependencies, operational parameters
 ---
 
 *This knowledge base serves as institutional memory for the OpenAgentBuilder project, enabling agents to access context, decisions, and successful patterns from previous development sessions.*
+
+### 8. VS Code SDK Integration and Reorganization ✅
+
+#### 8.1 SDK Structure Reorganization
+**Objective**: Organize `sdk-vscode/agents/` directory to match parent `agents/` folder structure for better organization and scalability.
+
+**Problem Identified**: 
+- SDK agents were in a flat directory structure (all 11 `.prompt.md` files in single folder)
+- Inconsistent with parent `agents/` organized structure (core/development/management)
+- Difficult agent discovery and navigation for users
+- Duplicate files found in both root and subdirectories
+
+**Solution Implemented**:
+```
+// Before: Flat structure
+sdk-vscode/agents/
+├── [11 .prompt.md files in single directory]
+
+// After: Organized structure
+sdk-vscode/agents/
+├── core/ (3 agents)
+│   ├── doc-writer.prompt.md
+│   ├── orchestrator.prompt.md
+│   └── prompt-engineer-v2.prompt.md
+├── development/ (5 agents)
+│   ├── backend-engineer.prompt.md
+│   ├── frontend-engineer.prompt.md
+│   ├── master-software-engineer.prompt.md
+│   ├── quality-assurance-engineer.prompt.md
+│   └── system-analyst.prompt.md
+└── management/ (3 agents)
+    ├── product-owner.prompt.md
+    ├── project-manager.prompt.md
+    └── scrum-master.prompt.md
+```
+
+#### 8.2 Technical Implementation Details
+
+**Files Modified**:
+1. **sdk-vscode/.vscode/settings.json** - Updated VS Code prompt file locations
+2. **sdk-vscode/tools/sync-agents.sh** - Modified to create organized subdirectory structure
+3. **sdk-vscode/tools/validate-sdk.sh** - Enhanced validation for categorized structure
+4. **sdk-vscode/README.md** - Updated setup and configuration instructions
+5. **sdk-vscode/CONFIGURATION.md** - Updated examples and folder structure diagrams
+6. **sdk-vscode/docs/setup-guide.md** - Updated VS Code settings configuration
+7. **agents/core/vscode-sdk-integration.prompt.md** - Fixed reference path guidance
+
+**VS Code Integration Updates**:
+```json
+// Updated settings.json configuration
+{
+  "chat.promptFiles": true,
+  "chat.promptFilesLocations": [
+    "sdk-vscode/agents/core",
+    "sdk-vscode/agents/development", 
+    "sdk-vscode/agents/management"
+  ]
+}
+```
+
+#### 8.3 Script Enhancements
+
+**Validation Script Improvements**:
+- Fixed arithmetic operation issues that caused script exit failures
+- Removed strict dependency on "Source Agent" references (manual edits compatibility)
+- Added categorized output showing agents by function area
+- Enhanced file validation with category-aware reporting
+
+**Sync Script Updates**:
+- Modified to create files in appropriate category subdirectories
+- Automatic directory creation for each category
+- Maintained backward compatibility with source agent references
+
+#### 8.4 Documentation Updates
+
+**Knowledge Transfer**:
+- Updated all user-facing documentation for new directory structure
+- Provided clear migration guidance for existing users
+- Enhanced troubleshooting documentation for common setup issues
+
+**Integration Benefits**:
+1. **Better Organization**: Agents logically grouped by expertise area
+2. **Easier Navigation**: Users can find agents by category (core/development/management)
+3. **Consistent Structure**: SDK mirrors parent `agents/` folder organization
+4. **Scalability**: Easy to add new agent categories in future
+5. **VS Code Integration**: Cleaner prompt file discovery and organization
+
+#### 8.5 Quality Assurance
+
+**Validation Results**:
+- ✅ All 11 agents successfully organized with no duplicates
+- ✅ Structure validation passes completely
+- ✅ VS Code integration tested and working
+- ✅ All documentation updated and consistent
+- ✅ Scripts enhanced and tested for new structure
+
+**Testing Performed**:
+- Validated file counts and organization
+- Tested VS Code prompt file discovery
+- Verified script functionality with new structure
+- Confirmed no duplicate or orphaned files
+- Tested backward compatibility
+
+#### 8.6 Impact Assessment
+
+**User Experience Improvements**:
+- Faster agent discovery through categorization
+- Clearer understanding of agent purposes and roles
+- Improved onboarding for new users
+- Better integration with VS Code workflow
+
+**Developer Experience Improvements**:
+- Easier maintenance of agent collections
+- Clearer separation of concerns
+- Better tooling support for validation and sync
+- Enhanced documentation consistency
+
+**Technical Debt Reduction**:
+- Eliminated duplicate files issue
+- Standardized directory structure across project
+- Improved automation script reliability
+- Enhanced validation coverage

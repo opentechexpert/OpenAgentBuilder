@@ -219,79 +219,118 @@ This document records the key architectural and design decisions made during Ope
 - Reference documents created for standards, patterns, and decisions
 - Integration protocols documented and implemented in core agents
 
-## Decision Impact Tracking
+### AD-006: OpenAPI Specification for Agent Interfaces
+**Date**: December 19, 2024  
+**Status**: Decided  
+**Decision Maker**: OpenAgentBuilder Core Team  
 
-### AD-001 Impact: TDD as Core Principle
-**Quality Improvements**:
-- Comprehensive testing frameworks integrated into all agents
-- Quality gates established throughout all workflows
-- Community adoption of quality-first development approaches
+**Context**: Need for clear, standardized API specifications for all agent interfaces to ensure consistency and interoperability.
 
-**Development Velocity**:
-- Reduced defect rates and rework through test-first development
-- Improved collaboration through shared quality standards
-- Faster community onboarding through clear quality expectations
+**Decision**: Adopt OpenAPI Specification (OAS) 3.0 as the standard for documenting and defining agent APIs.
 
-**Community Growth**:
-- Increased confidence in OpenAgentBuilder quality and reliability
-- Better contribution guidelines through quality integration
-- Enhanced learning opportunities through TDD education and examples
+**Rationale**:
+- **Standardization**: OAS provides a widely-accepted standard for API documentation
+- **Tooling Support**: Strong ecosystem of tools for generating, validating, and consuming APIs
+- **Clarity**: Clear, machine-readable API definitions improve understanding and reduce errors
+- **Interoperability**: Standardized interfaces enable easier integration between agents and external systems
+- **Community Adoption**: OAS is a well-known standard that will be familiar to many contributors
 
-### AD-002 Impact: Agent Categorization
-**Organization Benefits**:
-- Clear understanding of agent purposes and relationships
-- Efficient workflow design through category-based coordination
-- Scalable structure supporting ecosystem growth
+**Alternatives Considered**:
+1. **GraphQL**: Use GraphQL instead of REST/HTTP APIs
+   - Rejected: Adds complexity and is not as widely supported by existing tools
+2. **gRPC**: Use gRPC for API communication
+   - Rejected: Requires additional infrastructure and is not as human-readable
+3. **Custom Specification**: Define a custom API specification format
+   - Rejected: Lack of tooling and standardization would increase complexity
 
-**Development Efficiency**:
-- Focused development efforts within appropriate categories
-- Effective agent collaboration through clear categorization
-- Simplified agent selection and workflow planning
+**Implementation**:
+- All new agents must define their APIs using OAS 3.0
+- Existing agents to be updated with OAS-compliant API documentation
+- Documentation and tooling to support OAS adoption provided
+- Community guidelines updated to include OAS requirements
 
-**Community Understanding**:
-- Easier navigation and comprehension of agent ecosystem
-- Clear contribution pathways within appropriate categories
-- Better documentation organization and discoverability
+### AD-007: TypeScript as the Primary Development Language
+**Date**: December 19, 2024  
+**Status**: Decided  
+**Decision Maker**: OpenAgentBuilder Core Team  
 
-### AD-003 Impact: Six-Phase Methodology
-**Consistency Achievement**:
-- Standardized approaches across all agents and workflows
-- Predictable outcomes through established patterns
-- Reduced learning curve for community contributors
+**Context**: Need to choose a primary development language for OpenAgentBuilder to ensure consistency, maintainability, and developer productivity.
 
-**Quality Integration**:
-- Built-in validation and testing phases ensure quality outcomes
-- Continuous improvement cycles integrated into all workflows
-- Quality gates prevent quality debt accumulation
+**Decision**: TypeScript will be the primary development language for all OpenAgentBuilder agents and tools.
 
-**Coordination Effectiveness**:
-- Standardized phases enable effective multi-agent orchestration
-- Clear handoff points between agents and workflow stages
-- Improved workflow monitoring and optimization capabilities
+**Rationale**:
+- **JavaScript Superset**: TypeScript is a superset of JavaScript, providing all its features plus static typing
+- **Tooling**: Excellent tooling support, including IDE integration, linting, and automated refactoring
+- **Community Familiarity**: Large pool of developers familiar with JavaScript and TypeScript
+- **Maintainability**: Static typing and interfaces improve code maintainability and reduce bugs
+- **Interoperability**: Seamless integration with existing JavaScript libraries and frameworks
 
-## Future Decision Planning
+**Alternatives Considered**:
+1. **JavaScript**: Use JavaScript without static typing
+   - Rejected: Lack of type safety can lead to more runtime errors and bugs
+2. **Python**: Use Python as the development language
+   - Rejected: Significant differences in language paradigms and ecosystem
+3. **Go**: Use Go for its simplicity and performance
+   - Rejected: Lack of generics and other features make it less suitable for this project
 
-### Upcoming Decisions
-1. **Enterprise Features**: Commercial offerings and advanced capabilities
-2. **External Integrations**: Third-party tool and platform integrations
-3. **Community Governance**: Decision-making processes for community-driven development
-4. **Performance Optimization**: Advanced performance and scalability features
-5. **AI Enhancement**: Machine learning integration for agent improvement
+**Implementation**:
+- All new agents and tools must be implemented in TypeScript
+- Existing JavaScript codebases to be migrated to TypeScript
+- TypeScript configuration and tooling setup provided
+- Documentation and training materials for TypeScript adoption
 
-### Decision Preparation Process
-- **Stakeholder Analysis**: Identify all affected parties and gather input
-- **Research and Analysis**: Thorough investigation of alternatives and implications
-- **Community Input**: Solicit feedback and perspectives from community members
-- **Pilot Implementation**: Test approaches where feasible before final decisions
-- **Documentation**: Comprehensive documentation of decisions and rationale
+### AD-008: VS Code SDK Directory Structure Organization
+**Date**: June 5, 2025  
+**Status**: Decided  
+**Decision Maker**: OpenAgentBuilder Core Team  
+
+**Context**: The VS Code SDK agents directory was using a flat structure with all 11 `.prompt.md` files in a single directory (`sdk-vscode/agents/`), while the parent `agents/` directory used an organized structure with `core/`, `development/`, and `management/` subdirectories.
+
+**Decision**: Reorganize the VS Code SDK agents directory to mirror the parent `agents/` folder structure with categorized subdirectories.
+
+**Rationale**:
+- **Consistency**: SDK structure should match parent organization for intuitive navigation
+- **Scalability**: Organized structure supports easier addition of new agent categories
+- **User Experience**: Categorized agents improve discovery and understanding of agent purposes
+- **Maintainability**: Organized structure reduces complexity for contributors and maintainers
+- **VS Code Integration**: Better integration with VS Code prompt file discovery mechanisms
+
+**Alternatives Considered**:
+1. **Maintain Flat Structure**: Keep all agents in single directory
+   - Rejected: Poor scalability, inconsistent with parent structure, difficult navigation
+2. **Different Categorization**: Use alternative organizational schemes (by complexity, usage, etc.)
+   - Rejected: Would create inconsistency with established parent structure
+3. **Hybrid Approach**: Organize some but not all agents
+   - Rejected: Would create confusion and partial organization
+
+**Implementation**:
+- Created three subdirectories: `core/`, `development/`, `management/`
+- Moved agents to appropriate categories:
+  - **Core** (3 agents): doc-writer, orchestrator, prompt-engineer-v2
+  - **Development** (5 agents): backend-engineer, frontend-engineer, master-software-engineer, quality-assurance-engineer, system-analyst
+  - **Management** (3 agents): product-owner, project-manager, scrum-master
+- Updated VS Code settings to include all three subdirectories in `chat.promptFilesLocations`
+- Enhanced automation scripts (`sync-agents.sh`, `validate-sdk.sh`) for organized structure
+- Updated all documentation and configuration files
+
+**Validation**:
+- All 11 agents successfully organized with no duplicates
+- Validation scripts pass completely
+- VS Code integration tested and working
+- Documentation updated and consistent
+- No breaking changes to agent functionality
+
+**Impact**:
+- **Improved User Experience**: Faster agent discovery through categorization
+- **Better Organization**: Logical grouping by expertise area
+- **Enhanced Scalability**: Easy addition of new agent categories
+- **Consistent Structure**: SDK mirrors parent folder organization
+- **Quality Tooling**: Enhanced validation and sync automation
+
+**Migration Notes**:
+- Existing VS Code settings require update to new prompt file locations
+- All existing `.prompt.md` files automatically moved to appropriate subdirectories
+- Validation and sync scripts handle new structure automatically
+- No changes to agent content or functionality
 
 ---
-
-**Maintained by**: OpenAgentBuilder Core Team  
-**Last Updated**: December 19, 2024  
-**Review Schedule**: After major decisions or monthly  
-**Community Input**: Decision input welcome via standard contribution channels  
-
----
-
-*These architectural decisions provide the foundation for OpenAgentBuilder development, ensuring consistency, quality, and community collaboration while supporting sustainable growth and innovation.*

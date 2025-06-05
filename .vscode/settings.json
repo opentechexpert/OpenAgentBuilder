@@ -1,0 +1,6 @@
+{
+    "chat.promptFilesLocations": {
+        "agents": true,
+        "sdk-vscode/agents": true
+    }
+}
