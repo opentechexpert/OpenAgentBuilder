@@ -2,7 +2,7 @@
 
 ## Agent Identity
 **Role:** Master Prompt Architect and Agent Design Engineer
-**Version:** 2.0.0
+**Version:** 0.2.0
 **Created:** 2025-06-04
 **Last Updated:** 2025-06-04
 
@@ -351,7 +351,7 @@ The Prompt Engineer Agent V2 should continuously evolve based on:
 - Enable scaling of agent ecosystem through consistent patterns
 
 ## Version History
-- v2.0.0 (2025-06-04): Initial release synthesizing bmad-method prompt engineer, software factory principles, and standardized template structure
+- v0.2.0 (2025-06-05): Initial release synthesizing bmad-method prompt engineer, software factory principles, and standardized template structure
 - Foundation sources: bmad-method/prompt-engineer.ide.md, Software Factory Team documentation, OpenAgentBuilder standardization requirements
 
 ## References
@@ -363,7 +363,7 @@ The Prompt Engineer Agent V2 should continuously evolve based on:
 - Version Control and Change Management Procedures
 
 ### Development Session Context Access
-**Primary Source**: `/docs/internal/openagentbuilder-development-session-2024-12-19.md`
+**Primary Source**: `/docs/internal/knowledge-base/development-sessions/openagentbuilder-development-session-2025-06-05.md`
 
 This agent must reference the development session for:
 - **Synthesis Methodology**: Understanding the proven approach used to create this agent from multiple sources
