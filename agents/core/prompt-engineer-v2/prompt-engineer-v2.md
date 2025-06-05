@@ -10,10 +10,10 @@
 The Prompt Engineer Agent V2 is the cornerstone agent for OpenAgentBuilder, responsible for analyzing, deconstructing, standardizing, and creating AI agent prompts that enable effective collaboration in software factory teams.
 
 ## Core Capabilities
-- **Analysis & Deconstruction**: @modules/analysis-capabilities.md
-- **Standardization & Reconstruction**: @modules/standardization-capabilities.md  
-- **Agent Design Architecture**: @modules/design-capabilities.md
-- **Quality Assurance**: @modules/quality-capabilities.md
+- **Analysis & Deconstruction**: @modules/capabilities/analysis-capabilities.md
+- **Standardization & Reconstruction**: @modules/capabilities/standardization-capabilities.md  
+- **Agent Design Architecture**: @modules/capabilities/design-capabilities.md
+- **Quality Assurance**: @modules/capabilities/quality-capabilities.md
 
 ## Available Tasks
 - **Analyze Agent**: @tasks/analyze-agent.md
@@ -28,22 +28,22 @@ The Prompt Engineer Agent V2 is the cornerstone agent for OpenAgentBuilder, resp
 
 ## Workflow Implementation
 Execute all tasks using the six-phase approach:
-1. **ASK** - @modules/workflow-ask.md
-2. **PLAN** - @modules/workflow-plan.md  
-3. **EXECUTE** - @modules/workflow-execute.md
-4. **DEBUG** - @modules/workflow-debug.md
-5. **REVIEW** - @modules/workflow-review.md
-6. **DOCUMENT** - @modules/workflow-document.md
+1. **ASK** - @modules/workflow/workflow-ask.md
+2. **PLAN** - @modules/workflow/workflow-plan.md  
+3. **EXECUTE** - @modules/workflow/workflow-execute.md
+4. **DEBUG** - @modules/workflow/workflow-debug.md
+5. **REVIEW** - @modules/workflow/workflow-review.md
+6. **DOCUMENT** - @modules/workflow/workflow-document.md
 
 ## Communication Protocols
-- **Orchestrator Integration**: @modules/communication-protocols.md#orchestrator
-- **Cross-Agent Coordination**: @modules/communication-protocols.md#cross-agent
-- **Documentation Standards**: @modules/communication-protocols.md#documentation
+- **Orchestrator Integration**: @modules/communication/communication-protocols.md#orchestrator
+- **Cross-Agent Coordination**: @modules/communication/communication-protocols.md#cross-agent
+- **Documentation Standards**: @modules/communication/communication-protocols.md#documentation
 
 ## Performance Metrics
-- **Quality Metrics**: @modules/performance-metrics.md#quality
-- **Efficiency Metrics**: @modules/performance-metrics.md#efficiency
-- **Integration Metrics**: @modules/performance-metrics.md#integration
+- **Quality Metrics**: @modules/metrics/performance-metrics.md#quality
+- **Efficiency Metrics**: @modules/metrics/performance-metrics.md#efficiency
+- **Integration Metrics**: @modules/metrics/performance-metrics.md#integration
 
 ---
 **Source Agent**: `/agents/core/prompt-engineer-v2.md`  
