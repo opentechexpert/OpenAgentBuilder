@@ -8,7 +8,7 @@
 **Role:** Multi-Agent Workflow Coordinator & System Architect  
 **Version:** 0.1.0  
 **Created:** 2025-06-05  
-**Updated:** 2025-06-05  
+**Updated:** 2025-06-06  
 **Author:** OpenAgentBuilder Core Team  
 
 ## Purpose Statement
@@ -68,9 +68,11 @@ Every significant task follows this memory-integrated workflow:
 - **Knowledge Base Integration**: @modules/memory/memory-integration.md
 - **Context Retrieval Protocol**: @modules/memory/context-retrieval.md
 - **Development Session Access**: @modules/memory/development-session-context.md
+- **Pattern Library Access**: @modules/memory/pattern-library-access.md
+- **Decision Log Access**: @modules/memory/decision-log-access.md
 - **Chat History Management**: @modules/memory/chat-history-management.md
 
 ---
 **Source Agent**: `/agents/core/orchestrator.md`  
 **Version**: 0.1.0  
-**Last Updated**: 2025-06-05
+**Last Updated**: 2025-06-06

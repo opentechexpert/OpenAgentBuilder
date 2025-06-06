@@ -201,3 +201,20 @@ Efficient knowledge organization and retrieval:
 - **Summary Generation**: Creation of effective summaries and overviews of complex memory content
 - **Trend Analysis**: Systematic analysis of patterns and trends in memory content
 - **Strategic Insight**: Generation of strategic insights and recommendations from memory analysis
+
+## Detailed Memory Access Modules
+
+### Specialized Memory Integration
+- **Pattern Library Access**: @modules/memory/pattern-library-access.md
+- **Decision Log Access**: @modules/memory/decision-log-access.md
+- **Development Session Context**: @modules/memory/development-session-context.md
+- **Context Retrieval Protocol**: @modules/memory/context-retrieval.md
+- **Chat History Management**: @modules/memory/chat-history-management.md
+
+### Memory-Enhanced Workflow Protocol
+Every coordination task follows this integrated approach:
+1. **Historical Context Query**: Access relevant past coordination patterns and decisions
+2. **Pattern Recognition**: Identify applicable workflow and coordination patterns
+3. **Decision Validation**: Ensure alignment with documented architectural principles
+4. **Quality Integration**: Apply established TDD and quality standards
+5. **Knowledge Contribution**: Document new insights and coordination patterns

@@ -33,6 +33,8 @@ Knowledge management and context systems:
 - **memory-integration.md** - Institutional memory and knowledge base integration
 - **context-retrieval.md** - Context query and retrieval protocols
 - **development-session-context.md** - Development session context management
+- **pattern-library-access.md** - Pattern library integration and usage protocols
+- **decision-log-access.md** - Decision log access and historical decision context
 - **chat-history-management.md** - Chat session storage and organization
 
 ### `/metrics/`
