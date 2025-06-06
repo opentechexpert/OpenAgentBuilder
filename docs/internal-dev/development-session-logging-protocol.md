@@ -6,7 +6,7 @@ Establish a standardized approach for all OpenAgentBuilder agents to document de
 ## Standard Logging Location
 
 ### Centralized Development Sessions
-**Location**: `/docs/internal/knowledge-base/development-sessions/`
+**Location**: `/docs/internal-dev/knowledge-base/development-sessions/`
 **Purpose**: All development session tracking and institutional memory
 **Audience**: All agents, project managers, system architects, community
 
@@ -100,13 +100,13 @@ When completing development work, all agents should use this prompt:
 Please document this development session following OpenAgentBuilder standards:
 
 1. **Create Centralized Development Session Log**
-   - Location: `/docs/internal/knowledge-base/development-sessions/`
+   - Location: `/docs/internal-dev/knowledge-base/development-sessions/`
    - Session ID: {AGENT-CODE}-{SESSION-TYPE}-{YYYY-MM-DD}-{HH}
    - Include all required sections per logging protocol
    - All sessions stored centrally for project-wide visibility
 
 2. **Extract Knowledge Patterns**
-   - Location: `/docs/internal/knowledge-base/development-patterns/`
+   - Location: `/docs/internal-dev/knowledge-base/development-patterns/`
    - Document any reusable patterns discovered
    - Update institutional memory
 
