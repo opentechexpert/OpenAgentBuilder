@@ -1,8 +1,0 @@
-{
-  "files.associations": {
-    "*.prompt.md": "markdown"
-  },
-  "markdown.validate.enabled": true,
-  "editor.wordWrap": "on",
-  "chat.promptFiles": true
-}
