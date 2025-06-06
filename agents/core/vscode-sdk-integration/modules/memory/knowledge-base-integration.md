@@ -106,7 +106,7 @@ Defines how the VS Code SDK Integration Agent connects with and leverages the Op
 **Query Protocol**: Analyze before implementing new agent features or modifications
 
 ### Integration Patterns
-**Reference**: `/sdk-vscode/` and related integration documentation
+**Reference**: `/integrations/vscode/` and related integration documentation
 **Usage**: Leverage existing integration patterns and learn from previous implementations
 **Query Protocol**: Review before designing new integration components
 

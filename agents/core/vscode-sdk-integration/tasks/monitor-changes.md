@@ -249,7 +249,7 @@ Alert_Levels:
 ---
 **Related Tasks**: 
 - @tasks/synchronize-agents.md
-- @tasks/initialize-sdk.md
+- @tasks/evolve-sdk-capabilities.md
 - @tasks/validate-sdk.md
 
 **Required Modules**: 

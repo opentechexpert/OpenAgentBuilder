@@ -21,7 +21,7 @@ Defines the technical integration points and requirements for seamlessly integra
 
 ### File Structure Requirements
 ```
-/sdk-vscode/
+/integrations/vscode/
 ├── agents/                            # Converted prompt files
 │   ├── core/                         # Core OpenAgentBuilder agents
 │   ├── development/                  # Development-focused agents

@@ -1,7 +1,7 @@
-# Initialize SDK Task
+# Evolve SDK Capabilities Task
 
 ## Purpose
-Initialize the VS Code SDK with dynamic discovery, real-time synchronization, and evolutionary capabilities to support the growing and changing OpenAgentBuilder ecosystem.
+Evolve the VS Code SDK with dynamic discovery, real-time synchronization, and evolutionary capabilities to support the growing and changing OpenAgentBuilder ecosystem.
 
 ## Task Workflow
 

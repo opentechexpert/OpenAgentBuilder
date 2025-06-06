@@ -15,7 +15,7 @@ The PLAN phase focuses on designing the VS Code SDK architecture, developing con
 ### Folder Structure Planning
 ```markdown
 **Primary Structure**
-/sdk-vscode/
+/integrations/vscode/
 ├── README.md                    # Setup and overview documentation
 ├── CONFIGURATION.md             # VS Code configuration guide
 ├── agents/                      # Converted prompt files
@@ -97,7 +97,7 @@ The PLAN phase focuses on designing the VS Code SDK architecture, developing con
 ### Phase 1: Foundation (Weeks 1-2)
 ```markdown
 **Infrastructure Setup**
-- Create sdk-vscode folder structure
+- Create integrations/vscode folder structure
 - Implement basic conversion framework
 - Set up automation infrastructure
 - Establish quality assurance procedures

@@ -18,7 +18,7 @@ Design and implement the complete VS Code SDK structure for OpenAgentBuilder int
 ## Task Steps
 
 ### 1. Setup SDK Structure
-- [ ] Create `/sdk-vscode/` root directory
+- [ ] Create `/integrations/vscode/` root directory
 - [ ] Establish folder hierarchy (agents/, instructions/, tools/, docs/)
 - [ ] Create initial configuration files (.vscode/settings.json, .vscode/extensions.json)
 - [ ] Setup README.md and CONFIGURATION.md files
@@ -56,7 +56,7 @@ Design and implement the complete VS Code SDK structure for OpenAgentBuilder int
 - [ ] Performance requirements met (loading time < 2s)
 
 ## Deliverables
-- **SDK Structure**: Complete `/sdk-vscode/` folder with all components
+- **SDK Structure**: Complete `/integrations/vscode/` folder with all components
 - **Prompt Files**: Converted .prompt.md files for all priority agents
 - **Automation Scripts**: Working synchronization and validation tools
 - **Documentation Package**: Setup guides, usage examples, troubleshooting

@@ -187,7 +187,7 @@ Multiple_Agents_Updated:
 
 ---
 **Related Tasks**: 
-- @tasks/initialize-sdk.md
+- @tasks/evolve-sdk-capabilities.md
 - @tasks/monitor-changes.md
 - @tasks/validate-sdk.md
 

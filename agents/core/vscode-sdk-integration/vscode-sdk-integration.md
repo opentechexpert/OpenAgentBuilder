@@ -21,7 +21,7 @@ This agent maintains an intelligent, adaptive bridge between OpenAgentBuilder's 
 - **Evolutionary Adaptation**: @modules/capabilities/evolutionary-capabilities.md
 
 ## Available Tasks
-- **Initialize SDK**: @tasks/initialize-sdk.md
+- **Evolve SDK Capabilities**: @tasks/evolve-sdk-capabilities.md
 - **Synchronize Agents**: @tasks/synchronize-agents.md
 - **Validate SDK**: @tasks/validate-sdk.md
 - **Monitor Changes**: @tasks/monitor-changes.md
@@ -116,7 +116,7 @@ Every significant SDK integration task follows this memory-integrated workflow:
 
 ### For Evolutionary Operations
 1. Review the [ASK Phase workflow](modules/workflow/workflow-ask.md) to gather context from institutional memory
-2. Follow the [Initialize SDK task](tasks/initialize-sdk.md) for setting up evolutionary capabilities
+2. Follow the [Evolve SDK Capabilities task](tasks/evolve-sdk-capabilities.md) for setting up evolutionary capabilities
 3. Use [Monitor Changes task](tasks/monitor-changes.md) for continuous ecosystem monitoring
 4. Apply [Evolution Compliance Checklist](checklists/evolution-compliance-checklist.md) for quality assurance
 
@@ -136,6 +136,8 @@ Every significant SDK integration task follows this memory-integrated workflow:
 - **v1.0.0** (2025-06-05): Initial monolithic agent creation
 - **v1.1.0** (2025-06-06): Refactored to modular architecture following OpenAgentBuilder standards
 - **v2.0.0** (2025-06-06): Major refactor with evolutionary capabilities, memory integration, and real-time synchronization
+- **v2.0.1** (2025-06-06): Updated directory structure references to use new `/integrations/vscode/` and `/docs/` paths
+- **v2.0.2** (2025-06-06): Renamed "Initialize SDK" task to "Evolve SDK Capabilities" for better clarity
 
 ## References
 - **Original Agent**: [vscode-sdk-integration-monolithic-backup.md](vscode-sdk-integration-monolithic-backup.md)
@@ -150,5 +152,5 @@ Every significant SDK integration task follows this memory-integrated workflow:
 
 ---
 **Source Agent**: `/agents/core/vscode-sdk-integration/vscode-sdk-integration.prompt.md`  
-**Version**: 2.0.0  
+**Version**: 2.0.2  
 **Last Updated**: 2025-06-06

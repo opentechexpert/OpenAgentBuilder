@@ -4,7 +4,7 @@
 The EXECUTE phase implements the VS Code SDK according to the architecture and plans developed in the PLAN phase, focusing on creating the folder structure, converting agents to prompt files, and implementing automation systems.
 
 ## Phase Objectives
-- **Infrastructure Implementation**: Create complete sdk-vscode folder structure and configuration
+- **Infrastructure Implementation**: Create complete integrations/vscode folder structure and configuration
 - **Agent Conversion**: Transform priority OpenAgentBuilder agents into VS Code prompt files
 - **Automation Implementation**: Build and deploy synchronization and validation automation
 - **Documentation Creation**: Generate comprehensive setup and usage documentation
@@ -15,7 +15,7 @@ The EXECUTE phase implements the VS Code SDK according to the architecture and p
 ### SDK Structure Creation
 ```markdown
 **Primary Folder Structure**
-- Create /sdk-vscode root directory with proper organization
+- Create /integrations/vscode root directory with proper organization
 - Implement /agents subfolder with category-based organization
 - Set up /instructions directory for VS Code instruction files
 - Create /tools directory for automation scripts and utilities
