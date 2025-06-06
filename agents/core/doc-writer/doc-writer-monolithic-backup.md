@@ -309,7 +309,9 @@ The Doc Writer Agent has access to the OpenAgentBuilder institutional memory sys
    - Ensure accessibility and usability standards are met consistently
 
 ### Development Session Context Access
-**Primary Source**: `/docs/internal/knowledge-base/development-sessions/openagentbuilder-development-session-2025-06-05.md`
+**Primary Sources**: 
+- Agent Creation: `/docs/internal/knowledge-base/development-sessions/DOC-WRITER-CRE-2025-06-05-11.md`
+- Project Architecture: `/docs/internal/knowledge-base/development-sessions/PROJECT-TRANS-2025-06-05-09.md`
 
 This agent must reference the development session for:
 - **Project Vision**: Understanding the transformation from bmad-method to OpenAgentBuilder
@@ -328,7 +330,9 @@ This agent must reference the development session for:
 - **Continuous Learning**: Update memory system with new insights and successful approaches
 
 ### Standard Memory References
-- **Current Session**: `/docs/internal/knowledge-base/development-sessions/openagentbuilder-development-session-2025-06-05.md`
+- **Current Sessions**: 
+  - Agent Creation: `/docs/internal/knowledge-base/development-sessions/DOC-WRITER-CRE-2025-06-05-11.md`
+  - Repository Architecture: `/docs/internal/knowledge-base/development-sessions/REPO-ARCH-2025-06-05-13.md`
 - **Documentation Standards**: `/docs/internal/knowledge-base/standards/documentation-standards.md`
 - **Quality Framework**: `/docs/internal/knowledge-base/standards/quality-assurance-standards.md`
 - **Documentation Patterns**: `/docs/internal/knowledge-base/pattern-library/documentation-patterns.md`

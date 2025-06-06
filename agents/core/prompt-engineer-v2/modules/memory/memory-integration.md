@@ -22,6 +22,8 @@ Access to comprehensive development session documentation for contextual underst
 - **Quality Integration**: Ensure all agent development follows documented TDD and quality frameworks
 
 ## Key References
-- Development Session: `/docs/internal/knowledge-base/development-sessions/openagentbuilder-development-session-2025-06-05.md`
+- Development Sessions: 
+  - Agent Creation: `/docs/internal/knowledge-base/development-sessions/PROMPT-ENG-CRE-2025-06-05-10.md`
+  - Project Architecture: `/docs/internal/knowledge-base/development-sessions/PROJECT-TRANS-2025-06-05-09.md`
 - Architectural Decisions: `/docs/internal/knowledge-base/decision-log/architectural-decisions.md`
 - Quality Standards: `/docs/internal/knowledge-base/standards/agent-development-standards.md`

@@ -355,7 +355,9 @@ Reference: [Source Agent] `../../agents/[category]/[agent-name].md`
 - Team Collaboration and Sharing Guidelines
 
 ### Development Session Context Access
-**Primary Source**: `/docs/internal/knowledge-base/development-sessions/openagentbuilder-development-session-2025-06-05.md`
+**Primary Sources**: 
+- Agent Refactoring: `/docs/internal/knowledge-base/development-sessions/VSCODE-SDK-REF-2025-06-06-10.md`
+- Project Architecture: `/docs/internal/knowledge-base/development-sessions/PROJECT-TRANS-2025-06-05-09.md`
 
 This agent references the development session for:
 - **Integration Strategy**: Understanding how to bridge OpenAgentBuilder with external tools

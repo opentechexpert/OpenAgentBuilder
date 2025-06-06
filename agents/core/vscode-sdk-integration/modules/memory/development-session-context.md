@@ -53,7 +53,9 @@ Manages and maintains context from development sessions to ensure continuity and
 ## Context Access Protocols
 
 ### Primary Source Reference
-**Source**: `/docs/internal/knowledge-base/development-sessions/openagentbuilder-development-session-2025-06-05.md`
+**Sources**: 
+- Agent Refactoring: `/docs/internal/knowledge-base/development-sessions/VSCODE-SDK-REF-2025-06-06-10.md`
+- Project Architecture: `/docs/internal/knowledge-base/development-sessions/PROJECT-TRANS-2025-06-05-09.md`
 
 **Usage Context:**
 - **Integration Strategy**: Understanding OpenAgentBuilder integration patterns

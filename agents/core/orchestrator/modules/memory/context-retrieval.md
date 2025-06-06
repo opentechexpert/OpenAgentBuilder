@@ -21,7 +21,9 @@ This agent has access to the OpenAgentBuilder institutional memory system:
 5. **Learn from Evolution**: Understand how approaches have improved over time
 
 ### Standard Memory References
-- **Current Session**: `/docs/internal/knowledge-base/development-sessions/openagentbuilder-development-session-2025-06-05.md`
+- **Current Sessions**: 
+  - Agent Creation: `/docs/internal/knowledge-base/development-sessions/ORCHESTRATOR-CRE-2025-06-05-12.md`
+  - Project Architecture: `/docs/internal/knowledge-base/development-sessions/PROJECT-TRANS-2025-06-05-09.md`
 - **Agent Standards**: `/docs/internal/knowledge-base/standards/agent-development-standards.md`
 - **Quality Framework**: `/docs/internal/knowledge-base/standards/quality-assurance-standards.md`
 - **Integration Patterns**: `/docs/internal/knowledge-base/pattern-library/integration-patterns.md`

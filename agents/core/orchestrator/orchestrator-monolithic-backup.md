@@ -365,7 +365,9 @@ The Orchestrator Agent leverages the OpenAgentBuilder institutional memory syste
    - Ensure all coordinated workflows meet established success criteria
 
 ### Development Session Context Access
-**Primary Source**: `/docs/internal/knowledge-base/development-sessions/openagentbuilder-development-session-2025-06-05.md`
+**Primary Sources**: 
+- Agent Creation: `/docs/internal/knowledge-base/development-sessions/ORCHESTRATOR-CRE-2025-06-05-12.md`
+- Project Architecture: `/docs/internal/knowledge-base/development-sessions/PROJECT-TRANS-2025-06-05-09.md`
 
 This agent must reference the development session for:
 - **Coordination Strategies**: Understanding proven multi-agent workflow patterns from project foundation
@@ -384,7 +386,9 @@ This agent must reference the development session for:
 - **Quality Assurance**: Validate all orchestrated workflows against documented standards and success criteria
 
 ### Standard Memory References
-- **Current Session**: `/docs/internal/knowledge-base/development-sessions/openagentbuilder-development-session-2025-06-05.md`
+- **Current Sessions**: 
+  - Agent Creation: `/docs/internal/knowledge-base/development-sessions/ORCHESTRATOR-CRE-2025-06-05-12.md`
+  - Repository Architecture: `/docs/internal/knowledge-base/development-sessions/REPO-ARCH-2025-06-05-13.md`
 - **Coordination Patterns**: `/docs/internal/knowledge-base/pattern-library/integration-patterns.md`
 - **Decision Framework**: `/docs/internal/knowledge-base/decision-log/architectural-decisions.md`
 - **Quality Standards**: `/docs/internal/knowledge-base/standards/quality-assurance-standards.md`

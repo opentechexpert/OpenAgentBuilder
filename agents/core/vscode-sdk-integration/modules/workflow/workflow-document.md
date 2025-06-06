@@ -9,6 +9,7 @@ Create comprehensive documentation and establish ongoing maintenance procedures.
 - Establish contribution guidelines for community
 - Document maintenance and update procedures
 - Create troubleshooting and support documentation
+- Development Session Logging: Create comprehensive session log using standardized format
 - Archive development session and lessons learned
 
 ## Expected Inputs
@@ -38,5 +39,6 @@ Create comprehensive documentation and establish ongoing maintenance procedures.
 - Document architecture and design decisions
 - Establish contribution workflows
 - Create troubleshooting documentation
+- Log Development Session: Document session using `/tasks/log-development-session.md`
 - Archive lessons learned and best practices
 - Plan long-term maintenance strategy

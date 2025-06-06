@@ -61,7 +61,10 @@ Pattern Library Usage:
 ### Development Session Context Access
 
 #### Primary Session Integration
-**Core Session Reference**: `/docs/internal/knowledge-base/development-sessions/openagentbuilder-development-session-2025-06-05.md`
+**Core Session References**: 
+- Agent Creation: `/docs/internal/knowledge-base/development-sessions/DOC-WRITER-CRE-2025-06-05-11.md`
+- Project Architecture: `/docs/internal/knowledge-base/development-sessions/PROJECT-TRANS-2025-06-05-09.md`
+- Repository Setup: `/docs/internal/knowledge-base/development-sessions/REPO-ARCH-2025-06-05-13.md`
 
 **Essential Context Areas**:
 - **Project Vision**: Understanding the transformation from bmad-method to OpenAgentBuilder
