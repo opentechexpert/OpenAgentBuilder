@@ -28,6 +28,13 @@ Communication and coordination modules:
 Performance measurement and monitoring modules:
 - `performance-metrics.md` - Quality, efficiency, and integration metrics
 
+### `/memory/`
+Memory and context access modules:
+- `memory-integration.md` - Knowledge base integration and access protocols
+- `development-session-context.md` - Development session context access
+- `pattern-library-access.md` - Pattern library access and application
+- `decision-log-access.md` - Decision log access and consistency validation
+
 ## Module Organization Principles
 
 1. **Thematic Grouping**: Modules are grouped by their primary function and purpose
