@@ -4,13 +4,17 @@ This directory contains internal OpenAgentBuilder documentation for development,
 
 ## Directory Structure
 
-### `/development-sessions/`
+### `/knowledge-base/development-sessions/`
 **Purpose**: Track development sessions across all agents and time periods  
 **Contents**:
 - Monthly session indexes with summaries and outcomes
 - Cross-agent collaboration tracking
 - Quality metrics and trends analysis
 - Session statistics and patterns
+
+**Current Sessions**:
+- `2025-06-index.md` - Monthly index for June 2025 sessions
+- `VSCODE-SDK-REF-2025-06-06-001.md` - VS Code SDK Integration Agent v2.0.0 refactoring with memory-enhanced workflows and evolutionary capabilities
 
 **Usage**: 
 - Review recent development activity

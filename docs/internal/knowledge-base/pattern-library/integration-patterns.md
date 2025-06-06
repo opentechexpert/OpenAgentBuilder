@@ -48,6 +48,63 @@ This document captures proven integration patterns for OpenAgentBuilder agent co
 **Lessons Learned**:
 - Sequential development with integration testing prevents downstream issues
 - Documentation developed in parallel improves quality and reduces rework
+
+### Pattern 5: Memory-Enhanced Agent Refactoring
+**Context**: Upgrading existing agents to v2 standards with memory integration
+**Source**: VSCODE-SDK-REF-2025-06-06-001
+
+**Participants**:
+- Target Agent (being refactored)
+- Memory Systems (pattern library, decision logs, institutional knowledge)
+- Quality Assurance Framework
+
+**Workflow Pattern**:
+1. **ASK Phase**: Memory-enhanced requirements gathering and gap analysis
+2. **PLAN Phase**: Strategic planning using proven patterns from memory
+3. **EXECUTE Phase**: Systematic implementation with memory integration
+4. **DEBUG Phase**: Comprehensive validation and error resolution  
+5. **REVIEW Phase**: Quality assurance and optimization
+6. **DOCUMENT Phase**: Knowledge capture and institutional memory contribution
+
+**Success Metrics**:
+- 100% standards compliance achieved
+- Memory integration fully functional
+- Evolutionary capabilities operational
+- Comprehensive documentation completed
+- Knowledge patterns extracted for reuse
+
+**Lessons Learned**:
+- Memory integration in early phases significantly improves decision quality
+- Systematic six-phase approach ensures comprehensive coverage
+- Evolutionary capabilities require careful architectural planning
+- Quality gates prevent accumulation of technical debt
+
+### Pattern 6: Evolutionary Capability Integration
+**Context**: Implementing adaptive learning and self-optimization in agents
+**Source**: VSCODE-SDK-REF-2025-06-06-001
+
+**Participants**:
+- Core Agent (receiving evolutionary capabilities)
+- Memory Systems (continuous learning support)
+- Ecosystem Monitoring (environment tracking)
+
+**Workflow Pattern**:
+1. **Foundation Setup**: Establish modular architecture with plugin support
+2. **Learning Integration**: Implement pattern recognition and adaptation mechanisms
+3. **Adaptive Enhancement**: Enable dynamic architecture evolution
+4. **Ecosystem Integration**: Connect with broader agent ecosystem
+
+**Success Metrics**:
+- Real-time adaptation to ecosystem changes
+- Continuous performance improvement
+- Zero-disruption evolution deployment
+- Successful cross-agent learning
+
+**Lessons Learned**:
+- Start with robust monitoring for safe evolution
+- Implement rollback mechanisms early as critical safety feature
+- Focus on gradual evolution to avoid disruptive changes
+- Prioritize quality gates to maintain standards during evolution
 - Cross-agent validation enhances overall system coherence
 - Comprehensive templates enable consistent agent development
 

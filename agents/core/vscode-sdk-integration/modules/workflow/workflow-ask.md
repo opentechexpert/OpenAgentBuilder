@@ -1,14 +1,15 @@
-# Workflow ASK Phase
+# Workflow ASK Phase - Memory-Enhanced Requirements Gathering
 
 ## Overview
-The ASK phase focuses on gathering comprehensive requirements for VS Code integration, identifying target agents for conversion, and establishing clear success criteria for the SDK development process.
+The ASK phase focuses on gathering comprehensive requirements for VS Code integration with evolutionary capabilities, leveraging institutional memory to understand ecosystem context and applying proven patterns for optimal integration design.
 
-## Phase Objectives
-- **Requirements Gathering**: Collect comprehensive requirements from stakeholders and development teams
-- **Agent Identification**: Identify and prioritize OpenAgentBuilder agents for VS Code integration
-- **Scope Definition**: Define clear scope and boundaries for the VS Code SDK project
-- **Success Criteria**: Establish measurable success criteria and validation metrics
-- **Resource Planning**: Assess resource requirements and project constraints
+## Memory-Enhanced Phase Objectives
+- **Context Gathering**: Query development session for relevant VS Code integration background and architectural principles
+- **Pattern Recognition**: Identify applicable SDK development patterns from institutional memory
+- **Requirements Gathering**: Collect comprehensive requirements informed by historical success patterns
+- **Agent Discovery**: Identify and prioritize OpenAgentBuilder agents using evolutionary criteria
+- **Decision Alignment**: Validate approach against documented architectural decisions and design principles
+- **Success Criteria**: Establish measurable success criteria aligned with institutional quality standards
 
 ## Stakeholder Engagement
 
